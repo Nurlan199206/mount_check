@@ -1,5 +1,5 @@
 #!/bin/bash
-mount="//172.27.1.34/automatic_reports/chesn_slovo"
+mount="//172.27.1.34/automatic_reports/folder1"
 if grep -qs "$mount" /proc/mounts; then
   echo "It's mounted."
 else
